@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-//import Navbar from "./github-finder/navbar";
-//import UserItem from "./github-finder/userItem";
+import Navbar from "./github-finder/navbar";
+import UserItem from "./github-finder/userItem";
 //import Login from './advanced-react/login';
 //import EffectHooks from './advanced-react/useEffectHook';
 //  import Shop from './advanced-react/shopping';
@@ -21,13 +21,13 @@ function App() {
   return (
     <React.Fragment className="App">
       {/* style={{ width: "50%", margin: "auto" }} */}
-      {/* <div>
+      {<div>
         <Navbar />
         <div>
           <UserItem />
         </div>
-      </div> */}
-      <Pages />
+      </div>}
+//       <Pages />
       {/* <Component /> */}
     </React.Fragment>
   );
